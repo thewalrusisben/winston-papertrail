@@ -1,0 +1,108 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "winston-papertrail",
+        "scope": null,
+        "escapedName": "winston-papertrail",
+        "name": "winston-papertrail",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/thewalrusisben/development/api"
+    ]
+  ],
+  "_from": "winston-papertrail@latest",
+  "_id": "winston-papertrail@1.0.5",
+  "_inCache": true,
+  "_location": "/winston-papertrail",
+  "_nodeVersion": "7.10.0",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/winston-papertrail-1.0.5.tgz_1495053546966_0.029053169768303633"
+  },
+  "_npmUser": {
+    "name": "troyd",
+    "email": "troy@yort.com"
+  },
+  "_npmVersion": "4.2.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "winston-papertrail",
+    "scope": null,
+    "escapedName": "winston-papertrail",
+    "name": "winston-papertrail",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/winston-papertrail/-/winston-papertrail-1.0.5.tgz",
+  "_shasum": "54a23b16e5046652bf687b37dc802714bfd462c9",
+  "_shrinkwrap": null,
+  "_spec": "winston-papertrail",
+  "_where": "/Users/thewalrusisben/development/api",
+  "author": {
+    "name": "Ken Perkins",
+    "email": "ken.perkins@rackspace.com"
+  },
+  "bugs": {
+    "url": "https://github.com/kenperkins/winston-papertrail/issues"
+  },
+  "dependencies": {
+    "glossy": "^0.1.7",
+    "serializerr": "^1.0.3"
+  },
+  "description": "A Papertrail transport for winston",
+  "devDependencies": {
+    "mocha": "^2.0.1",
+    "should": "^4.3.0",
+    "winston": ">=0.6.x"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "54a23b16e5046652bf687b37dc802714bfd462c9",
+    "tarball": "https://registry.npmjs.org/winston-papertrail/-/winston-papertrail-1.0.5.tgz"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "gitHead": "439b5215608e3d3138e886d96de829c52bc568b4",
+  "homepage": "https://github.com/kenperkins/winston-papertrail#readme",
+  "keywords": [
+    "logging",
+    "sysadmin",
+    "tools",
+    "winston",
+    "papertrail",
+    "logs"
+  ],
+  "main": "./lib/winston-papertrail",
+  "maintainers": [
+    {
+      "name": "kperkins",
+      "email": "ken.perkins@rackspace.com"
+    },
+    {
+      "name": "troyd",
+      "email": "troy@yort.com"
+    }
+  ],
+  "name": "winston-papertrail",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "winston": ">=0.6.x"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kenperkins/winston-papertrail.git"
+  },
+  "scripts": {
+    "test": "mocha test/*-test.js --spec"
+  },
+  "version": "1.0.5"
+}
